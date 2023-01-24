@@ -40,7 +40,7 @@ number|programming language|percentage|type|
 39|Haskell|0.30|func
 40|Lua|0.29|imp
 41|Apex|0.29|
-42|(Visual) FoxPro|0.29|
+42|(Visual) FoxPro|0.29
 43|Bash|0.26|scr
 44|Scheme|0.26|func
 45|D|0.25|iobj
@@ -49,3 +49,4 @@ number|programming language|percentage|type|
 48|Logo|0.23|
 49|PostScript|0.22|
 50|Ladder Logic|0.22|
+

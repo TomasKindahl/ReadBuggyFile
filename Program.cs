@@ -14,7 +14,7 @@ namespace ReadBuggyFile
             stat["log"] = 0.0;
             using (StreamReader sr = new StreamReader("../../../tiobe21.lis"))
             {
-                while(!sr.EndOfStream)
+                while (!sr.EndOfStream)
                 {
                     string? line = sr.ReadLine();
                     string[] array = line.Split('|');
@@ -25,7 +25,7 @@ namespace ReadBuggyFile
                     }
                 }
             }
-            foreach(KeyValuePair<string, double> pair in stat)
+            foreach (KeyValuePair<string, double> pair in stat)
             {
                 Console.WriteLine($"{pair.Key}: {pair.Value}");
             }
